@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-vp(*a0&#ua#bflqyh5j(je%s^c#3j=%de242k+kz9hbdshcdwd'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-dfedyachkina-djangoblog-b7n88e1aow5.ws.codeinstitute-ide.net', '.herokuapp.com', 'blooming-meadow-36265-b12e5ee3f443.herokuapp.com']
+ALLOWED_HOSTS = ['8000-dfedyachkina-djangoblog-b7n88e1aow5.ws.codeinstitute-ide.net', '.herokuapp.com']
 
 
 # Application definition
@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
-    '.heroku.app'
 ]
 
 MIDDLEWARE = [
